@@ -4,7 +4,7 @@ import re
 
 # Supabase Configuration
 SUPABASE_URL = "https://ozajbkuiigfvrhcyekbw.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im96YWpia3VpaWdmdnJoY3lla2J3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzM3NDQ1ODksImV4cCI6MjA0OTMyMDU4OX0.-btwngaqqQO7wPA_8FAIVeDDcK1pplaIR5DBBlTG1oI"
+SUPABASE_KEY = "KEY_GOES_HERE"
 
 
 def hide_sidebar():
