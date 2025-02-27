@@ -20,20 +20,24 @@ The AI Placement Trainer is an intelligent assistant built to help students navi
 
 <div align="center">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-    <figure>
+    <figure style="text-align: center;">
       <img src="images/login.png" alt="Login Screen" width="400" />
+      <br />
       <figcaption>Login Screen - Secure authentication interface for returning users</figcaption>
     </figure>
-    <figure>
+    <figure style="text-align: center;">
       <img src="images/signup.png" alt="Signup Screen" width="400" />
+      <br />
       <figcaption>Signup Screen - New user registration form with email verification</figcaption>
     </figure>
-    <figure>
+    <figure style="text-align: center;">
       <img src="images/chatwork.png" alt="Chat Interface" width="400" />
+      <br />
       <figcaption>Chat Interface - Interactive AI conversation with placement-specific responses</figcaption>
     </figure>
-    <figure>
+    <figure style="text-align: center;">
       <img src="images/upload.png" alt="Document Upload" width="400" />
+      <br />
       <figcaption>Document Upload - PDF processing interface for company-specific information</figcaption>
     </figure>
   </div>
