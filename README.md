@@ -2,7 +2,7 @@
 
 A sophisticated AI-powered chatbot designed to assist students with placement-related queries, preparation strategies, and company-specific information.
 
-![AI Placement Trainer Banner](https://raw.githubusercontent.com/username/ai-placement-trainer/main/assets/banner.jpg)
+![AI Placement Trainer Banner](images/chatbot.png)
 
 ## 📌 Overview
 
