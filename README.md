@@ -198,6 +198,20 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+## 👥 Contributors
+
+<div align="center">
+  <a href="https://github.com/mohithn2004">
+    <img src="https://github.com/mohithn2004.png" width="70px" alt="Mohith N" style="border-radius: 50%; margin: 0 10px;" title="Mohith N"/>
+  </a>
+  <a href="https://github.com/Rijo-1">
+    <img src="https://github.com/Rijo-1.png" width="70px" alt="Rijo" style="border-radius: 50%; margin: 0 10px;" title="Rijo"/>
+  </a>
+  <a href="https://github.com/sandyyman">
+    <img src="https://github.com/sandyyman.png" width="70px" alt="Sandy" style="border-radius: 50%; margin: 0 10px;" title="Sandy"/>
+  </a>
+</div>
+
 
 ## 🙏 Acknowledgements
 
@@ -207,6 +221,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - [Supabase](https://supabase.io/) for authentication and data storage
 - [Tavily](https://tavily.com/) for web search API
 - [Hugging Face](https://huggingface.co/) for E5 embeddings
+
+
 
 ---
 
