@@ -2,7 +2,7 @@
 
 A sophisticated AI-powered chatbot designed to assist students with placement-related queries, preparation strategies, and company-specific information.
 
-![AI Placement Trainer Banner](images/chatbot.png)
+![AI Placement Trainer Banner - Main interface of the chatbot showing conversation capabilities](images/chatbot.png)
 
 ## 📌 Overview
 
@@ -20,10 +20,10 @@ The AI Placement Trainer is an intelligent assistant built to help students navi
 
 <div align="center">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-    <img src="images/login.png" alt="Login Screen" width="400" />
-    <img src="images/signup.png" alt="Signup Screen" width="400" />
-    <img src="images/chatwork.png" alt="Chat Interface" width="400" />
-    <img src="images/upload.png" alt="Document Upload" width="400" />
+    <img src="images/login.png" alt="Login Screen - Secure authentication interface for returning users" width="400" />
+    <img src="images/signup.png" alt="Signup Screen - New user registration form with email verification" width="400" />
+    <img src="images/chatwork.png" alt="Chat Interface - Interactive AI conversation with placement-specific responses" width="400" />
+    <img src="images/upload.png" alt="Document Upload - PDF processing interface for company-specific information" width="400" />
   </div>
 </div>
 
@@ -191,4 +191,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-<p align="center">Created with ❤️ for helping students ace their placements</p
+<p align="center">Created with ❤️ for helping students ace their placements</p>
