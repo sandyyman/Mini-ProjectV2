@@ -64,7 +64,6 @@ The AI Placement Trainer is an intelligent assistant built to help students navi
 
 3. Create a `.env` file with your API keys:
    ```
-   EMBED_API_KEY=your_mistral_api_key
    GROQ_API_KEY=your_groq_api_key
    TAVILY_API_KEY=your_tavily_api_key
    QDRANT_URL=your_qdrant_url
