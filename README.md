@@ -31,7 +31,7 @@ The AI Placement Trainer is an intelligent assistant built to help students navi
 
 - **Frontend**: Streamlit
 - **LLM**: Groq (Llama 3.1 8B)
-- **Embeddings**: MistralAI, Hugging Face (E5-large-v2)
+- **Embeddings**: Hugging Face (E5-large-v2)
 - **Vector Database**: Qdrant
 - **Authentication & Storage**: Supabase
 - **Web Search**: Tavily API
@@ -44,7 +44,6 @@ The AI Placement Trainer is an intelligent assistant built to help students navi
 - Streamlit
 - API keys for:
   - Groq
-  - MistralAI
   - Tavily
   - Qdrant
   - Supabase
