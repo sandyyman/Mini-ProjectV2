@@ -20,33 +20,32 @@ The AI Placement Trainer is an intelligent assistant built to help students navi
 
 <div align="center">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-    <figure>
+    <div style="display: flex; flex-direction: column; align-items: center;">
       <img src="images/login.png" alt="Login Screen" width="400" />
-      <figcaption style="text-align: center; margin-top: 8px;">
-        Login Screen - Secure authentication interface for returning users
-      </figcaption>
-    </figure>
-    <figure>
+      <p style="margin-top: 8px; text-align: center;">
+        <strong>Login Screen</strong> - Secure authentication interface for returning users
+      </p>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
       <img src="images/signup.png" alt="Signup Screen" width="400" />
-      <figcaption style="text-align: center; margin-top: 8px;">
-        Signup Screen - New user registration form with email verification
-      </figcaption>
-    </figure>
-    <figure>
+      <p style="margin-top: 8px; text-align: center;">
+        <strong>Signup Screen</strong> - New user registration form with email verification
+      </p>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
       <img src="images/chatwork.png" alt="Chat Interface" width="400" />
-      <figcaption style="text-align: center; margin-top: 8px;">
-        Chat Interface - Interactive AI conversation with placement-specific responses
-      </figcaption>
-    </figure>
-    <figure>
+      <p style="margin-top: 8px; text-align: center;">
+        <strong>Chat Interface</strong> - Interactive AI conversation with placement-specific responses
+      </p>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
       <img src="images/upload.png" alt="Document Upload" width="400" />
-      <figcaption style="text-align: center; margin-top: 8px;">
-        Document Upload - PDF processing interface for company-specific information
-      </figcaption>
-    </figure>
+      <p style="margin-top: 8px; text-align: center;">
+        <strong>Document Upload</strong> - PDF processing interface for company-specific information
+      </p>
+    </div>
   </div>
 </div>
-
 
 ## 🛠️ Technologies Used
 
