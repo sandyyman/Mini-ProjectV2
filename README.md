@@ -20,10 +20,22 @@ The AI Placement Trainer is an intelligent assistant built to help students navi
 
 <div align="center">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-    <img src="images/login.png" alt="Login Screen - Secure authentication interface for returning users" width="400" />
-    <img src="images/signup.png" alt="Signup Screen - New user registration form with email verification" width="400" />
-    <img src="images/chatwork.png" alt="Chat Interface - Interactive AI conversation with placement-specific responses" width="400" />
-    <img src="images/upload.png" alt="Document Upload - PDF processing interface for company-specific information" width="400" />
+    <figure>
+      <img src="images/login.png" alt="Login Screen" width="400" />
+      <figcaption>Login Screen - Secure authentication interface for returning users</figcaption>
+    </figure>
+    <figure>
+      <img src="images/signup.png" alt="Signup Screen" width="400" />
+      <figcaption>Signup Screen - New user registration form with email verification</figcaption>
+    </figure>
+    <figure>
+      <img src="images/chatwork.png" alt="Chat Interface" width="400" />
+      <figcaption>Chat Interface - Interactive AI conversation with placement-specific responses</figcaption>
+    </figure>
+    <figure>
+      <img src="images/upload.png" alt="Document Upload" width="400" />
+      <figcaption>Document Upload - PDF processing interface for company-specific information</figcaption>
+    </figure>
   </div>
 </div>
 
@@ -183,7 +195,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 - [Streamlit](https://streamlit.io/) for the web interface
 - [Groq](https://groq.com/) for LLM API
-- [MistralAI](https://mistral.ai/) for embedding capabilities
 - [Qdrant](https://qdrant.tech/) for vector storage
 - [Supabase](https://supabase.io/) for authentication and data storage
 - [Tavily](https://tavily.com/) for web search API
