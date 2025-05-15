@@ -19,8 +19,8 @@ import requests
 EMBED_API_KEY = "HjheJudiISavtMpy65Yh6m0WTA7bjmVs"
 GROQ_API_KEY = "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"
 TAVILY_API_KEY = "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"
-QDRANT_URL = "https://c85c2f9d-8b25-4ce7-9df0-ba9d4cf9f012.europe-west3-0.gcp.cloud.qdrant.io:6333"
-QDRANT_API_KEY = "yDiGYK-wHzb3rpdSlaZuDV0KOK5EYa8rHQdo7KwcvIAKPS3qVzFl_A"
+QDRANT_URL = "https://3d787692-d7d2-4d89-b288-7a309625774e.eu-central-1-0.aws.cloud.qdrant.io:6333"
+QDRANT_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.Kzd4YUG6pyLEvDPpL0qX-7rQ8N6C-vbP0HHRfwmRfJM"
 SUPABASE_URL = "https://ozajbkuiigfvrhcyekbw.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im96YWpia3VpaWdmdnJoY3lla2J3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzM3NDQ1ODksImV4cCI6MjA0OTMyMDU4OX0.-btwngaqqQO7wPA_8FAIVeDDcK1pplaIR5DBBlTG1oI"
 
