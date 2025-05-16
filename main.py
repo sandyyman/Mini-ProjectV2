@@ -12,6 +12,9 @@ from qdrant_client.http.models import PointStruct, VectorParams, Filter, FieldCo
 from supabase import create_client
 import re
 import requests
+import time
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # Initialize Supabase client
 
@@ -494,11 +497,39 @@ def signup_page(authenticator):
             st.session_state["page"] = "login"
             st.rerun()
 
+# Add this after the existing imports
+def create_retry_session():
+    session = requests.Session()
+    retries = Retry(
+        total=5,
+        backoff_factor=0.1,
+        status_forcelist=[500, 502, 503, 504],
+    )
+    session.mount('http://', HTTPAdapter(max_retries=retries))
+    session.mount('https://', HTTPAdapter(max_retries=retries))
+    return session
+
+# Update the query function with retry logic
 def query(texts):
-    """Query the Hugging Face API for embeddings."""
-    prefixed_texts = [f"query: {text}" for text in texts]
-    response = requests.post(api_url, headers=headers, json={"inputs": prefixed_texts, "options": {"wait_for_model": True}})
-    return response.json()
+    """Query the Hugging Face API for embeddings with retry logic."""
+    session = create_retry_session()
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            prefixed_texts = [f"query: {text}" for text in texts]
+            response = session.post(
+                api_url,
+                headers=headers,
+                json={"inputs": prefixed_texts, "options": {"wait_for_model": True}},
+                timeout=30
+            )
+            response.raise_for_status()
+            return response.json()
+        except (requests.exceptions.RequestException, ConnectionResetError) as e:
+            if attempt == max_retries - 1:
+                print(f"Failed to get embedding after {max_retries} attempts: {e}")
+                return []
+            time.sleep(1 * (attempt + 1))  # Exponential backoff
 
 def get_embedding(text):
     """Get embedding for a single text using Hugging Face API."""
